@@ -164,7 +164,7 @@ def plot_weekday_usage(df):
 # MAIN 
 
 #load data
-df = pd.read_csv("/main_data.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/dickifathurohman/submission_analisis_data/main/dashboard/main_data.csv")
 
 #mengubah tipe data
 df["dteday"] = pd.to_datetime(df["dteday"])
