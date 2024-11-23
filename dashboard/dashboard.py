@@ -176,7 +176,7 @@ max_date = df["dteday"].max()
 #Sidebar untuk filter berdasarkan rentang tanggal
 with st.sidebar:
     
-    st.image("https://raw.githubusercontent.com/dickifathurohman/Proyek_Analisis_Data/main/logo.jpg")
+    st.image("https://raw.githubusercontent.com/dickifathurohman/submission_analisis_data/main/dashboard/logo.jpg")
 
     start_date, end_date = st.date_input(
     label='Rentang Waktu',min_value=min_date,
